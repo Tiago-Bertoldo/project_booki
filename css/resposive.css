@@ -1,5 +1,5 @@
-@media screen and (max-width:768px) {
 
+@media screen and (max-width:768px) {
     main {
         overflow-y: hidden;
     }
@@ -20,7 +20,7 @@
         display: flex;
         justify-content: center;
         width: 30%;
-        margin-left: 60px;
+        margin-left: 30px;
     }
 
     .nav-top-container {
@@ -46,40 +46,87 @@
         padding-bottom: 13.1px;
     }
 
-    .big {
-        border-top: none;
-        border-bottom: 4.5px solid #0065FC;;
+    .nav-top-container a:hover {
         color: #0065FC;
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
     }
-    .recherches {
-        margin-top: 20px;
-    }
+
 
 
     /* START RECHERCHE */
-    .container-recherche  {
-        margin-top: 10px;
+
+    .recherche-title {
+        width: 100%;
+    }
+    .resposive-btn {
+        display: inline-block;
+    }
+    .normal-btn {
+        display: none;
+    }
+
+    .recherche-article input {
+        min-width: 60%;
+
+    }
+
+
+    /* START ACTIVITE */
+   
+    #activite h2:nth-child(1) {
+        display: flex;
+
         justify-content: center;
         width: 100%;
-    }
-
-    .container-recherche h1 {
         margin: auto;
-        width: 100%;
-        font-size: 16pt;
     }
-    .container-recherche p {
-        font-size: 15px;
-    }
-    .recherches {
-        border: 1px solid black;
+    .activite-container {
+        flex-direction: column;
+        overflow-y: hidden;
+       
+   
     }
 
+    .box-one, .box-four , .box-three , .box-two{
+        width: 80%;
+        margin: 20px auto;
+        height: 216px;
+       
+    }
 
+    .box-one img {
+        height: 166px;
+        object-fit: cover;
+    }
 
+    .box-four img{
+            height: 166px;
+            object-fit: cover;
+    }
+
+    .box-four {
+        margin: 10px auto;
+        
+    }
+
+    .box-container {
+        width: 98%;
+        margin: 0;
+      
+    }
+
+    .box-three  img{
+        height: 140px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .box-three {
+        height: 190px;
+    }
 
     
-
     
     /* START HEBERGEMENTS */
     .aside {
@@ -167,4 +214,10 @@
         }
 
         
+}
+
+
+@media screen and (max-width:900) {
+
+
 }
