@@ -138,14 +138,11 @@
         max-width: 89%;
     }
     .img-one , .img-two , .img-three{
-        max-width: auto;
         margin: 25px auto;
         min-width: 50%;
         
     }
-    .boxers-one {
-        max-width: auto;
-    }
+
     .boxers-one img {
         max-width: 100%;
     }
@@ -217,7 +214,3 @@
 }
 
 
-@media screen and (max-width:900) {
-
-
-}
