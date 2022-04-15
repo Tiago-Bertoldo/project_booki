@@ -1,0 +1,114 @@
+@media screen and (max-width:768px) {
+
+    /* START NAV */
+
+    #top {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    #top img {
+        
+        width: auto;
+        height: auto;
+        border: 1px solid black;
+
+    }
+
+    .menu {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .menu li {
+        border: 1px solid black;
+        margin: auto;
+    }
+    
+    /* START HEBERGEMENTS */
+    .aside {
+        width: 40%;
+    }
+
+    .boxers-one > div{
+
+        max-width: 89%;
+    }
+    .img-one , .img-two , .img-three{
+        max-width: auto;
+        margin: 25px auto;
+        min-width: 50%;
+        
+    }
+    .boxers-one {
+        max-width: auto;
+    }
+    .boxers-one img {
+        max-width: 100%;
+    }
+
+    /* START FOOTER */
+    footer a {
+        font-size: 8pt;
+        word-break: break-all;
+    }
+  
+    .filtres {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        word-break: break-all;
+    }
+   
+
+
+
+}
+
+
+@media screen and (max-width:690px){
+
+        .top-article {
+            flex-direction: column-reverse;
+        } 
+        .article-heberge {
+            width: 100%;
+            margin: 20px auto;
+            background-color: white;
+            flex-direction: column;
+        }
+
+        .aside {
+            width: 95%;
+            margin: auto;
+        }
+
+        .img-two , .img-one , .img-three{
+          margin: 20px auto;
+           max-width: 98%;
+        }
+
+        .boxers-one {
+            max-width: 98%;
+            flex-direction: column;
+
+        }
+
+        .boxers-one > div {
+            max-width: 80%;
+            margin: 10px auto;
+        }
+
+        .boxers-one img {
+            max-width: 100%;
+        }
+
+
+        .boxers-one > div {
+            box-shadow: -2px 10px 26px 0px rgba(201,201,201,0.75);
+            -webkit-box-shadow: -2px 10px 26px 0px rgba(201,201,201,0.75);
+            -moz-box-shadow: -2px 10px 26px 0px rgba(201,201,201,0.75);
+        }
+
+        
+}
