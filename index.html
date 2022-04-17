@@ -43,10 +43,40 @@
          <form action="#" method="post">
             <i class="fas fa-map-marker-alt"></i>
             <input type="text" name="teste" id="teste">
-            <button type="submit">Rechercher</button>
+            <button type="submit" class="normal-btn">Rechercher</button>
+            <button type="submit" class="resposive-btn"><i class="fas fa-search"></i></button>
          </form>
      </div>
   </section>
+
+  <!-- START filtres -->
+  <section id="filtres">
+
+        <div class="filtres-btn">
+            <p>Filtres</p>
+            <div class="filtres-btn-one fbb">
+                 <i class="fas fa-star"></i>
+                <span>Economique</span>
+            </div>
+
+            <div class="filtres-btn-two fbb">
+                <i class="fas fa-star"></i>
+                <span>Economique</span>
+            </div>
+
+            <div class="filtres-btn-three fbb">
+                <i class="fas fa-star"></i>
+                <span>Economique</span>
+            </div>
+
+            <div class="filtres-btn-four fbb">
+                <i class="fas fa-star"></i>
+                <span>Economique</span>
+            </div>
+           
+        </div>
+  </section>
+
    <!-- START SECTION HEBERGEMENT -->
     <section id="hebergements">
        <div class="top-article">
@@ -162,7 +192,11 @@
            
             </div>
         <div class="aside">
-            <h2>Les plus populaires</h2>
+            <div class="title-aside">
+                <h2>Les plus populaires</h2>
+                <i class="fas fa-star"></i>
+            </div>
+
             <div class="boxers-two">
                <a href="#"><div class="img-one">
                    <img src="img/hebergements/4_small/7.jpg" alt="">
@@ -248,17 +282,13 @@
                     <h2>Parc Longchamp</h2>
                 </div>
             </div>
-
-        </div>
-        
-        <div>
-            <a href="#">Afficher Plus</a>
         </div>
 
     </section>
 </main>
 <!-- START FOOTER -->
-    <footer>    
+    <footer>   
+        <div class="container-footer">
             <div class="propos">
                 <ul>
                     <li>
@@ -279,7 +309,7 @@
             <div class="hebergements">
                 <ul>
                     <li>
-                        <h2>Nos hebergement</h2>
+                        <h2>Nos hebergements</h2>
                     </li>
                     <li>
                         <a href="#">Charte qualité</a>
@@ -303,6 +333,8 @@
                     </li>
                 </ul>
             </div>
+        </div> 
+            
     </footer>
 
 </body>

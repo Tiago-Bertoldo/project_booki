@@ -52,6 +52,24 @@
         border-bottom: 2px solid #0065FC;
     }
 
+    .recherche-article button{
+        width: 50px;
+        position: relative;
+        height: 42px;
+        border: none;
+        background-color:#0065FC;
+        color: white;
+        font-weight: 700;
+        border-radius: 10px 10px 10px 10px;
+        cursor: pointer;
+        float: left;
+    
+    }
+    .recherche-article input{
+        min-width: 50%;
+
+    }
+    
 
 
     /* START RECHERCHE */
@@ -59,15 +77,18 @@
     .recherche-title {
         width: 100%;
     }
+
     .resposive-btn {
         display: inline-block;
     }
+
     .normal-btn {
         display: none;
     }
 
+
     .recherche-article input {
-        min-width: 60%;
+        min-width: 60;
 
     }
 
