@@ -109,11 +109,12 @@ body {
 } 
 
 .recherche-boxer input {
-    padding: 15px;
+    height: 42px;
     border: none;
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
     width: 180px;
+    border-radius: 0 0 0 0 ;
 }
 
 
