@@ -52,23 +52,17 @@
         border-bottom: 2px solid #0065FC;
     }
 
-    .recherche-article button{
-        width: 50px;
-        position: relative;
-        height: 42px;
+    .recherche-boxer button{
+        padding: 10px;
         border: none;
-        background-color:#0065FC;
+        background-color: #0065FC;
         color: white;
         font-weight: 700;
-        border-radius: 10px 10px 10px 10px;
-        cursor: pointer;
-        float: left;
+        border-radius: 0px 10px 10px 0px ;
+        float: right;
     
     }
-    .recherche-article input{
-        min-width: 50%;
 
-    }
     
 
 
@@ -235,3 +229,10 @@
 }
 
 
+/* TABLETE  */
+
+@media screen and (max-width:900px) {
+        box-container {
+            display: flex;
+        }
+}

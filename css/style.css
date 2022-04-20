@@ -87,50 +87,68 @@ body {
    color: #5c5c5c;
 }
 
-
-
 .resposive-btn {
     display: none;
 }
+.recherche-boxer {
+    float: left;    
 
-.fa-map-marker-alt{
-    margin-bottom: 10px;
-    margin-left: 6px;
-    width: 25px;
-    height: 20px;
-    padding: 10px;
+}
+
+
+.recherche-boxer .fa-map-marker-alt{
     float: left;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px 0px 0  10px ;
+    border-right: none;
     text-align: center;
-    background-color: #d4d4d4;
-    border-top: 1px solid #d4d4d4;
-    border-bottom: 1px solid #d4d4d4;
-    border-left: 1px solid #d4d4d4;
-    border-radius: 10px 0 0 10px;
-    font-size: 19px;
-}
-
-.recherche-article input{
-    width: 150px;
-    height: 20px;
     padding: 10px;
-    float: left;
+    font-size:  14px;
+    background-color: #F2F2F2;
+} 
+
+.recherche-boxer input {
+    padding: 10px;
     border: none;
-    border-top: 1px solid #d4d4d4;
-    border-bottom: 1px solid #d4d4d4;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
 }
 
-.recherche-article button{
-    width: 100px;
-    position: relative;
-    height: 42px;
+
+.recherche-boxer .normal-btn {
+    padding: 10px;
     border: none;
-    background-color:#0065FC;
+    background-color: #0065FC;
     color: white;
     font-weight: 700;
-    border-radius: 0 10px 10px 0px;
-    cursor: pointer;
-
+    border-radius: 0px 10px 10px 0px ;
+    float: right;
 }
+
+
+
+
+
+
+
+
+/* .recherche-boxer .fa-map-marker-alt {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+
+.recherche-boxer input {
+    border: none;
+    outline: none;
+    background-color: #d4d4d4;
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
 
 
 /* ****************START FILTRES**************** */
@@ -198,9 +216,6 @@ body {
    
 }
 
-
-
-
 /* START hebergement */
 
 
@@ -208,10 +223,27 @@ body {
     width:  992px;
     margin: 0 auto;
 }
-
-
 /* ****************START FILTRES**************** */
 
+#filtres {
+    width: 100%;
+    max-width: 992px;
+    margin: auto;
+}
+
+
+.filtres-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    justify-items: flex-start;
+}
+
+.fbb ,  .filtres-btn p {
+    border: 1px solid black;
+    margin-right: 20px;
+}
 
 /* ****************START HEBERGEMENTS**************** */
 #hebergements {
@@ -570,15 +602,5 @@ footer a {
     justify-content: flex-start;
     margin-bottom: 10px;
     margin-right: 100px;
-
-}
-
-
-
-@media screen and (max-width:899px) {
-    .box-container {
-        margin: 0;
-        margin-top: 20px;
-    }
 
 }
