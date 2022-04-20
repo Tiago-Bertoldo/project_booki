@@ -52,16 +52,7 @@
         border-bottom: 2px solid #0065FC;
     }
 
-    .recherche-boxer button{
-        padding: 10px;
-        border: none;
-        background-color: #0065FC;
-        color: white;
-        font-weight: 700;
-        border-radius: 0px 10px 10px 0px ;
-        float: right;
-    
-    }
+
 
     
 
@@ -84,6 +75,22 @@
     .recherche-article input {
         min-width: 60%;
 
+    }
+
+.recherche-boxer {
+    margin-left: 10px;
+
+}
+
+    .recherche-boxer button{
+        padding: 16px;
+        border: none;
+        background-color: #0065FC;
+        color: white;
+        font-weight: 700;
+        border-radius: 0px 10px 10px 0px ;
+        float: right;
+    
     }
 
 

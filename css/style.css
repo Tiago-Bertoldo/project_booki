@@ -92,7 +92,8 @@ body {
 }
 .recherche-boxer {
     float: left;    
-
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -102,21 +103,22 @@ body {
     border-radius: 10px 0px 0  10px ;
     border-right: none;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     font-size:  14px;
     background-color: #F2F2F2;
 } 
 
 .recherche-boxer input {
-    padding: 10px;
+    padding: 15px;
     border: none;
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
+    width: 180px;
 }
 
 
 .recherche-boxer .normal-btn {
-    padding: 10px;
+    height: 46px;
     border: none;
     background-color: #0065FC;
     color: white;
