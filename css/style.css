@@ -138,6 +138,7 @@ body {
      border-radius: 0px 10px 10px 0px;
      cursor: pointer;
      position: absolute;
+     z-index: 2;
 }
 
 
@@ -405,6 +406,7 @@ body {
 
 .texts-i > p {
     margin-left: 0;
+    font-size: 10px;
 }
 
 .one-boxs {
@@ -433,6 +435,10 @@ body {
     box-shadow: -2px 10px 26px 0px rgba(201,201,201,0.75);
     -webkit-box-shadow: -2px 10px 26px 0px rgba(201,201,201,0.75);
     -moz-box-shadow: -2px 10px 26px 0px rgba(201,201,201,0.75);
+}
+
+.img-one p {
+    font-size: 10px;
 }
 
 .img-two p {
