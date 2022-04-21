@@ -66,6 +66,7 @@ body {
     width: 98%;
     max-width: 992px;
     margin: auto;
+    margin-bottom: 70px;
 
 }
 
@@ -144,44 +145,7 @@ body {
 }
 
 
-/* ****************START FILTRES**************** */
-.filtres {
-   display: flex;
-   display: none;
-   margin-top: 20px;
-   width: 100%;
-   height: auto;
-   max-width: 992px;
-   font-weight: 800;
-   font-size: 10pt;
-}
 
-.filtres li {
-    display: inline;
-    padding: 7px;
-    border: 1px solid #d4d4d4;
-    border-radius: 20px;
-    margin-right: 20px;
-    cursor: pointer;
-}
-
-.fa-solid {
-    padding: 10px;
-    border-radius: 50%;
-    position: relative;
-    right: 11px;
-    z-index: 2;
-    background-color:#DEEBFF;
-    color: #0065FC;
-    font-size: 11pt;
-}
-
-.no-span {
-    display: flex;
-    align-items: center;
-    color: rgb(63, 63, 63);
-    
-}
 
 /* ****************START TEXT PLUS**************** */
 .text-plus {
@@ -219,24 +183,67 @@ body {
 /* ****************START FILTRES**************** */
 
 #filtres {
-    width: 100%;
+    width: 98%;
     max-width: 992px;
     margin: auto;
+  
 }
 
+.ft-container h3 {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 800;
+}
 
-.filtres-btn {
+.ft-container {
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    justify-items: flex-start;
+    flex-wrap: wrap;
+    border: 1px solid black;
 }
 
-.fbb ,  .filtres-btn p {
-    border: 1px solid black;
-    margin-right: 20px;
+.fl-flex {
+    display: flex;
+    border: 1px solid #F2F2F2;
+    margin-left: 20px;
+    width: 150px;
+    border-radius: 20px 20px 20px 20px;
 }
+
+.ft-icon {
+    padding: 14px;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: -5px;
+    background-color: #DEEBFF;
+}
+
+.ft-text {
+    margin-left: 2px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+
+
+
+.ft-animaux {
+    display: flex;
+    border: 1px solid #F2F2F2;
+    margin-left: 20px;
+    width: 186px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.ft-icon i {
+    font-size: 20px;
+    color: #0065FC;
+}
+
+.ft-text {
+    margin-top: 2px;
+}
+
 
 /* ****************START HEBERGEMENTS**************** */
 #hebergements {

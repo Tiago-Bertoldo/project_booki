@@ -90,7 +90,7 @@
     }
 
 
-    
+
 
 
     /* START ACTIVITE */
@@ -147,7 +147,21 @@
         height: 190px;
     }
 
-    
+    .noflex {
+        display: flex;
+    }
+
+
+    /* START FILTRES */
+
+    .ft-container {
+         width: 100%;
+         flex-direction: column;
+    }
+
+    .fl-flex {
+        margin-bottom: 20px;
+    }
     
     /* START HEBERGEMENTS */
     .aside {
@@ -174,12 +188,7 @@
         word-break: break-all;
     }
   
-    .filtres {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        word-break: break-all;
-    }
+
    
 
 
