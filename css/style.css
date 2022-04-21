@@ -199,7 +199,6 @@ body {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
 }
 
 .fl-flex {
@@ -225,8 +224,6 @@ body {
 }
 
 
-
-
 .ft-animaux {
     display: flex;
     border: 1px solid #F2F2F2;
@@ -242,6 +239,10 @@ body {
 
 .ft-text {
     margin-top: 2px;
+}
+
+.noflex {
+    display: flex;
 }
 
 
