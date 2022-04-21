@@ -493,7 +493,6 @@ body {
 .activite-container {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .box-one , .box-four{
