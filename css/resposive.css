@@ -162,16 +162,18 @@
 
     .fl-flex {
         margin-bottom: 20px;
+        width: 140px;
     }
 
     .ft-text {
         margin-left: 2px;
         font-size: 10px;
         font-weight: 800;
+        margin-top: 3px;
     }
 
     .ft-icon {
-        padding: 7px;
+        padding: 10px;
         border-radius: 50%;
         align-items: center;
         margin-left: -5px;
@@ -183,8 +185,16 @@
         margin-right: 10px;
     }
 
+    .fl-flex {
+        height: 35px;
+    }
+
     .ft-animaux{
-        width: 150px;
+        width: 140px;
+    }
+
+    .ft-animaux .ft-text {
+        margin-top: 5px;
     }
 
 
