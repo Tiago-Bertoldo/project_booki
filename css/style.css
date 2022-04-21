@@ -143,11 +143,14 @@ body {
 
 .recherche-boxer .recherche-input {
    width: calc(100%  - 50%);
-   height: 32px;
-   margin: auto;
+   height: 94%;
+   margin-left:40px;
     border: none;
     outline: none;
-    background:blue;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
 }
 
 /* START PLUS-I  */
