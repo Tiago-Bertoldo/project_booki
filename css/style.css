@@ -98,46 +98,49 @@ body {
     display: flex;
     position: relative;
     float: left;
+
 }
 
 .recherche-boxer {
     width: 100%;
-    max-width: 300px;
-    height: 35px;
+    max-width: 324px;
+    height: 37px;
     position: relative;
     border: 1px solid #F2F2F2;
     background-color: #F2F2F2;
     border-radius: 10px 10px 10px 10px;
-    position: relative;
+    box-sizing: border-box;
 }
 .recherche-boxer .fa-map-marker-alt {
     height: 15px;
     width: 15px;
     font-size: 20px;
     margin: 7px 12px 1px 12px ;
+    float: left;
 
 }
 
-.recherche-boxer .normal-btn {
-     height: 35px;
-     position: absolute;
+.recherche-boxer .normal-btn {  
+     width: 100px;
+     margin-left: -3px;
+     height: 34px;
      right: 0;
-     margin-left: 2px;
      background: #0065FC;
      border: none;
      color: white;
      font-weight: 700;
      border-radius: 0px 10px 10px 0px;
+     cursor: pointer;
+     position: absolute;
 }
 
+
 .recherche-boxer .recherche-input {
-    width: 100%;
-    max-width: 210px;
-    height: 33px;
+   width: calc(100%  - 45%);
+   height: 33px;
+   margin: auto;
     border: none;
     outline: none;
-    position: absolute;
-    padding-left: 2px;
 }
 
 

@@ -78,8 +78,7 @@
         
     }
     .recherche-boxer .recherche-input {
-        max-width: 230px;
-
+        width: calc(100% - 20%);
     }
 
     .normal-btn {
