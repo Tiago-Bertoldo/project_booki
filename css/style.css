@@ -253,9 +253,13 @@ body {
     display: flex;
     height: 40px;
     border: 1px solid #F2F2F2;
-    width: 200px;
+    width: 180px;
     border-radius: 20px 20px 20px 20px;
     margin-left: 15px;
+}
+
+.ft-familial {
+    width: 120px;
 }
 
 .ft-icon i {

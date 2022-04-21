@@ -70,7 +70,6 @@
         height: 35px;
         position: absolute;
         right: 0;
-        margin-left: 2px;
         background: #0065FC;
         border: none;
         color: white;
@@ -84,6 +83,7 @@
 
     .normal-btn {
         display: none;
+
     }
 
     .recherche-boxer{
@@ -167,9 +167,8 @@
 
     .ft-text {
         margin-left: 2px;
-        font-size: 10px;
-        font-weight: 800;
-        margin-top: 3px;
+        font-size: 12px;
+        font-weight: bold;
     }
 
     .ft-icon {
@@ -190,14 +189,22 @@
     }
 
     .ft-animaux{
-        width: 140px;
+        width: 160px;
     }
 
     .ft-animaux .ft-text {
-        margin-top: 5px;
+        margin-top: 2px;
     }
 
-
+    .ft-familial {
+        width: 90px;
+    }
+    .ft-romantique {
+        width: 120px;
+    }
+    .ft-eco {
+        width: 120px;
+    }
 
     
     /* START HEBERGEMENTS */
