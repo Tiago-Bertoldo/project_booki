@@ -66,9 +66,10 @@
 
     .resposive-btn {
         display: inline-block;
-        width:40px;
+        width:45px;
         height: 35px;
         position: absolute;
+        text-align: center;
         right: 0;
         background: #0065FC;
         border: none;
@@ -83,7 +84,6 @@
 
     .normal-btn {
         display: none;
-
     }
 
     .recherche-boxer{
