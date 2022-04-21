@@ -101,85 +101,44 @@ body {
 }
 
 .recherche-boxer {
-    width: 36%;
+    width: 100%;
+    max-width: 300px;
+    height: 35px;
     position: relative;
-    border-radius: 10px 10px 10px 10px;
-}
-
-.fa-map-marker-alt {
-    margin: 0;
-    height: 22px;
-    padding: 10px;
-    border: none;
-    position: relative;
-    float: left;
-    font-size: 17px;
-    background-color: #F2F2F2;;
     border: 1px solid #F2F2F2;
-    border-radius: 10px 0px 0px 10px;
+    background-color: #F2F2F2;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
 }
+.recherche-boxer .fa-map-marker-alt {
+    height: 15px;
+    width: 15px;
+    font-size: 20px;
+    margin: 7px 12px 1px 12px ;
 
-.recherche-boxer input {
-    height: 40px;
-    top: 0;
-    bottom: 0;
-    margin: 0;
-    position: absolute;
-    float: left;
-    border: none;
-    border-top: 1px solid #F2F2F2;
-    border-bottom: 1px solid #f2f2f2;
-    width: 80%;
-    outline: none;
 }
 
 .recherche-boxer .normal-btn {
-    padding: 12px;
-    width: 110px;
-    position: absolute;
-    float: right;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin-right: 7px;
-    border-radius: 0px 10px 10px 0px;
-    border: none;
-    z-index: 1;
-    border: 1px solid #F2F2F2;
-    background-color: #0065FC;
-    color: white;
-    font-weight: 600;
-    cursor: pointer;
+     height: 35px;
+     position: absolute;
+     right: 0;
+     margin-left: 2px;
+     background: #0065FC;
+     border: none;
+     color: white;
+     font-weight: 700;
+     border-radius: 0px 10px 10px 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* .recherche-boxer .fa-map-marker-alt {
-    border: 1px solid black;
-    padding: 10px;
-    font-size: 20px;
-    position: relative;
-}
-
-
-.recherche-boxer input {
+.recherche-boxer .recherche-input {
+    width: 100%;
+    max-width: 210px;
+    height: 33px;
     border: none;
     outline: none;
-    background-color: #d4d4d4;
     position: absolute;
-    left: 0;
-    top: 0;
-} */
-
+    padding-left: 2px;
+}
 
 
 /* ****************START FILTRES**************** */
