@@ -101,6 +101,11 @@ body {
     float: left;
 
 }
+::placeholder{
+    font-weight: 600;
+    color: black;
+}
+
 
 .recherche-boxer {
     width: 100%;
@@ -122,9 +127,9 @@ body {
 }
 
 .recherche-boxer .normal-btn {  
-     width: 100px;
+     width: 120px;
      margin-left: -3px;
-     height: 34px;
+     height: 34.5px;
      right: 0;
      background: #0065FC;
      border: none;
@@ -138,13 +143,34 @@ body {
 
 .recherche-boxer .recherche-input {
    width: calc(100%  - 45%);
-   height: 33px;
+   height: 32.4px;
    margin: auto;
     border: none;
     outline: none;
 }
 
+/* START PLUS-I  */
 
+.plus-i {
+    width: 98%;
+    max-width: 992px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.plus-i p {
+    color: #5c5c5c;
+    font-weight: 500;
+}
+
+.plus-i .fa-info-circle {
+    color: #0065FC;
+    margin-left: 5px;
+    padding-right: 10px;
+    font-size: 18px;
+}
 
 
 /* ****************START TEXT PLUS**************** */
@@ -190,27 +216,27 @@ body {
 }
 
 .ft-container h3 {
-    margin-left: 10px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 800;
 }
 
 .ft-container {
-    width: 100%;
+    width: 98%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .fl-flex {
+    margin-left: 15px;
     display: flex;
     border: 1px solid #F2F2F2;
-    margin-left: 20px;
     width: 150px;
+    height: 40px;
     border-radius: 20px 20px 20px 20px;
 }
 
 .ft-icon {
-    padding: 14px;
+    padding: 12px;
     border-radius: 50%;
     align-items: center;
     margin-left: -5px;
@@ -218,31 +244,30 @@ body {
 }
 
 .ft-text {
-    margin-left: 2px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 800;
 }
 
 
 .ft-animaux {
     display: flex;
+    height: 40px;
     border: 1px solid #F2F2F2;
-    margin-left: 20px;
-    width: 186px;
+    width: 200px;
     border-radius: 20px 20px 20px 20px;
+    margin-left: 15px;
 }
 
 .ft-icon i {
-    font-size: 20px;
+    font-size: 17px;
     color: #0065FC;
 }
 
-.ft-text {
-    margin-top: 2px;
-}
+
 
 .noflex {
     display: flex;
+
 }
 
 

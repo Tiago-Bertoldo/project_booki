@@ -61,6 +61,7 @@
 
     .recherche-title {
         width: 100%;
+
     }
 
     .resposive-btn {
@@ -89,9 +90,7 @@
         margin-left: 6px;
     }
 
-
-
-
+   
 
     /* START ACTIVITE */
    
@@ -151,7 +150,7 @@
         display: flex;
     }
 
-    
+
 
 
     /* START FILTRES */
@@ -164,6 +163,32 @@
     .fl-flex {
         margin-bottom: 20px;
     }
+
+    .ft-text {
+        margin-left: 2px;
+        font-size: 10px;
+        font-weight: 800;
+    }
+
+    .ft-icon {
+        padding: 7px;
+        border-radius: 50%;
+        align-items: center;
+        margin-left: -5px;
+        background-color: #DEEBFF;
+    }
+
+
+    .noflex  .fl-flex {
+        margin-right: 10px;
+    }
+
+    .ft-animaux{
+        width: 150px;
+    }
+
+
+
     
     /* START HEBERGEMENTS */
     .aside {
@@ -183,6 +208,8 @@
     .boxers-one img {
         max-width: 100%;
     }
+
+    
 
     /* START FOOTER */
     footer a {
