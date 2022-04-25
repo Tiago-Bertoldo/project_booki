@@ -194,7 +194,7 @@
 
         .img-two , .img-one , .img-three{
           margin: 20px auto;
-           max-width: 98%;
+           max-width: 100%;
         }
 
         .boxers-one {
@@ -204,8 +204,9 @@
         }
 
         .boxers-one > div {
-            max-width: 80%;
+            max-width: 98%;
             margin: 10px auto;
+            padding: 3px;
         }
 
         .boxers-one img {
