@@ -186,7 +186,13 @@
             flex-direction: column-reverse;
         } 
 
+        .aff {
+            margin-left: 8px;
+        }
 
+        .article-heberge h2 {   
+            margin-left: 8px;
+        }
         .aside {
             width: 95%;
             margin: auto;
