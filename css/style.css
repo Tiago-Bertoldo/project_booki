@@ -350,6 +350,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 30px;
+    margin-top: 35px;
 }
 
 .boxers-one > div {
@@ -368,7 +369,7 @@ body {
 
 .boxers-one > div:hover {
 
-    transform: scale(1.11);
+    transform: scale(1.05);
 }
 
 .img-one , .img-two , .img-three {
@@ -376,7 +377,7 @@ body {
 }
 
 .img-one:hover , .img-two:hover , .img-three:hover {
-    transform: scale(1.11);
+    transform: scale(1.05);
 }
 
 
@@ -387,7 +388,7 @@ body {
 }
 
 .aside {
-    padding: 10px;
+    padding-left: 6px;
     width: 30%;
     background: #F2F2F2;
     border-radius: 20px;
@@ -406,9 +407,14 @@ body {
     margin-right: 10px;
     color: rgb(63, 63, 63);
 }
+.fa-chart-line {
+    margin-right: 20px;
+    font-size: 16px;
+}
 
 .aside h2 {
     margin-top: 20px;
+    margin-left: 8px;
     color: rgb(63, 63, 63);
     font-size: 18px;
     font-weight: 700;
@@ -638,11 +644,11 @@ body {
 }
 
 .activite-box-one-mini >div:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .active-box-one --box {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .active-box-one , .activite-box-two {
@@ -651,17 +657,17 @@ body {
 
 .activite-box-two --box {
     transition: 0.6s ease-in-out;
-    transform: scale(1.1);
+    transform: scale(1.05);
     border: 1px solid black;
 }
 
 .activite-box-two .__bg:hover , .active-box-one .__bg:hover{
     transition: 0.6s ease-in-out;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .active-box-one:hover{
-    transform: scale(1.12);
+    transform: scale(1.05);
 }
 
 
