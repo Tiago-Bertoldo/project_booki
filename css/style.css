@@ -647,19 +647,11 @@ body {
     transform: scale(1.05);
 }
 
-.active-box-one --box {
-    transform: scale(1.05);
-}
 
 .active-box-one , .activite-box-two {
     transition: 0.6s ease-in-out;
 }
 
-.activite-box-two --box {
-    transition: 0.6s ease-in-out;
-    transform: scale(1.05);
-    border: 1px solid black;
-}
 
 .activite-box-two .__bg:hover , .active-box-one .__bg:hover{
     transition: 0.6s ease-in-out;
